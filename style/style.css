@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    
+    background-color:mediumaquamarine;
+}
+
+.container{
+    display: flex;
+}
+
+h1{
+    padding: 10px;
+}
+h4{
+    padding: 15px;
+    text-align: left;
+}
+
+.container-1{
+    background-color: white;
+    text-align: center;
+    padding: 50px;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+.container-2{
+    background-color: white;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+    margin-top: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.container-3{
+    background-color: white;
+    justify-content: center;
+    text-align: center;    
+    padding: 50px;
+    margin-top: 200px;
+    margin-left: 10px;
+    margin-right: 50px;
+}
+
+.bott1{
+    margin: 20px;
+    padding: 15px;
+    height: 15px;
+    height: 20px;
+    color: white;
+    display: inline-block;
+    border-radius: 10%;
+    background-color:lightslategray;
+    border: 2px solid lightslategray;
+    font-size:100%;
+}
+
+.container-1:hover{
+    background-color: blue;
+    transition: 2s;
+}
+.container-2:hover{
+    background-color: yellow;
+    transition: 2s;
+}
+.container-3:hover{
+    background-color: green;
+    transition: 2s;
+}
